@@ -19,6 +19,7 @@ class Solution {
             if(s.charAt(i)=='('){
                 sta.push(i);
             }
+                
             else if(s.charAt(i)==')'){
                 st.add(sta.pop());
                 end.add(i);
