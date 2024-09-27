@@ -5,6 +5,7 @@ class Solution {
         while(st<end){
             if(s.charAt(st)==s.charAt(end)){
                 st++;
+                
                 end--;
             }
             else{
