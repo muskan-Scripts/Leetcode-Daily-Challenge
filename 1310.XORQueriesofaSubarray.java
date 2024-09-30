@@ -6,6 +6,7 @@ class Solution {
         for(int i=1;i<n;i++) {
             pre[i]=pre[i-1]^arr[i];
         }
+        
         int[] res=new int[queries.length];
         for(int k=0;k<queries.length;k++) {
             int i=queries[k][0];
