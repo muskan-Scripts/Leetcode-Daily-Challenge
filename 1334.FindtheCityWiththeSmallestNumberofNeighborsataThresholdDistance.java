@@ -29,6 +29,7 @@ class Solution {
                     count++;
                 }
             }
+           
             reachable[i] = count;
             if (count <= mini) {
                 mini = count;
