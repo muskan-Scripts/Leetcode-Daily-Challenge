@@ -7,6 +7,7 @@ class Solution {
         // Check both left and right subtrees for the next part of the linked list
         return checkPath(root.left, head.next) || checkPath(root.right, head.next);
     }
+    
     public boolean isSubPath(ListNode head, TreeNode root) {
         if(root==null )return false;
         boolean res=false;
