@@ -18,6 +18,7 @@ class Solution {
         
         int mask = 0; // Current bitmask
         int maxLength = 0; // Result variable to store the maximum length
+
         
         // Traverse the string
         for (int i = 0; i < s.length(); i++) {
