@@ -6,6 +6,7 @@ public class Solution {
         for (char currChar : expression.toCharArray()) {
             if (currChar == ',' || currChar == '(') continue; 
             if (
+                
                 currChar == 't' ||
                 currChar == 'f' ||
                 currChar == '!' ||
